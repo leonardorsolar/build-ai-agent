@@ -1,0 +1,10 @@
+# Arquivo com a chave de API real: nunca deve ir para o Git
+.env
+
+# Ambiente virtual do Python
+.venv/
+venv/
+
+# Arquivos temporários gerados pelo Python
+__pycache__/
+*.pyc

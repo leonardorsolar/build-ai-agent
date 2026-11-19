@@ -1,0 +1,14 @@
+# Dependências do agente simples com LangChain
+# Instale com: pip install -r requirements.txt
+
+# Integração do LangChain com os modelos da OpenAI (ChatOpenAI).
+# Já instala junto o "langchain-core" e o SDK "openai".
+langchain-openai>=0.3
+
+# Lê o arquivo .env e coloca a OPENAI_API_KEY nas variáveis de ambiente.
+python-dotenv>=1.0
+
+# NOVO: integração do LangChain com o Tavily, serviço de busca na web
+# feito para agentes de IA. É usado pela ferramenta web_search.
+# Precisa da chave TAVILY_API_KEY no .env (crie em https://tavily.com).
+langchain-tavily>=0.2
